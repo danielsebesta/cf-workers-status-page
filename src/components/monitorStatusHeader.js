@@ -25,8 +25,8 @@ export default function MonitorStatusHeader({ kvMonitorsLastUpdate }) {
           <div className="text-xs font-light">
             zkontrolováno{' '}
             {Math.round((Date.now() - kvMonitorsLastUpdate.time) / 1000)} sekund
-            zpět (z{' '}
-            {locations[kvMonitorsLastUpdate.loc] || kvMonitorsLastUpdate.loc})
+            zpět z{' '}
+            {locations[kvMonitorsLastUpdate.loc] || kvMonitorsLastUpdate.loc}
           </div>
         )}
       </div>
