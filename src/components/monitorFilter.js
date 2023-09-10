@@ -43,7 +43,7 @@ export default function MonitorFilter({ active, callback }) {
         value={input}
         onInput={handleInput}
         onKeyDown={handleKeyDown}
-        placeholder="Zmáčkni `/` pro vyhledávání"
+        placeholder="Hledat..."
         tabIndex={0}
         ref={(e) => e && active && e.focus()}
       />
